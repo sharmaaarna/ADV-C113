@@ -1,0 +1,25 @@
+#h_animate{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius:50%;
+    border:grey 50px ridge;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    0%   {left: 0%; background-color: blueviolet;}
+    40%  {left: 0%; background-color: blue;}
+    50%  {left: 85%; background-color: darkgreen;}
+    90% {left: 85%; background-color: lime;}
+    100% {left: 0%; background-color: blueviolet;}
+  }
+  body{
+      background:linear-gradient(to left,lime,blue);
+      color:white;
+  }
+  #my_color{
+    width:80px;
+    height:80px;
+   
+}
